@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/muminoff/tweekent",
   "dependencies": {
+    "nedb": "^1.1.2",
     "twit": "^1.1.20"
   }
 }
