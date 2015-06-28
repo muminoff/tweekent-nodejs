@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/muminoff/tweekent",
   "dependencies": {
-    "ntwitter": "^0.5.0",
-    "sqlite3": "^3.0.8"
+    "twit": "^1.1.20"
   }
 }
