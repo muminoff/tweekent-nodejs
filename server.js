@@ -1,7 +1,7 @@
 var twitter = require('twit'),
     nedb = require('nedb'),
     tweetsDB = new nedb({
-        filename: './tweets.db',
+        filename: './tweekent.db',
         autoload: true
     }),
     creds = require('./credentials.json');
