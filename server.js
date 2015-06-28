@@ -1,7 +1,7 @@
 var twitter = require('twit'),
-    twitterCredentials = require('./credentials.json');
+    creds = require('./credentials.json');
 
-twit = new twitter(twitterCredentials);
+twit = new twitter(creds);
 
 var tashkent = [
   '69.12597656249999',
@@ -12,5 +12,5 @@ var tashkent = [
 
 var stream = twit.stream('statuses/filter', {locations:tashkent});
 stream.on('tweet', function (tweet) {
-  console.log(tweet.text);
+  console.log(tweet);
 });
