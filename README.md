@@ -3,6 +3,7 @@ Realtime tweets from Tashkent, Uzbekistan
 
 ## Dependencies
 Twit - Twitter API Client for Node.js
+
 NeDB - Embedded persistent database for Node.js
 
 ## How to install
