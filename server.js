@@ -18,6 +18,6 @@ var tashkent = [
 
 var stream = twit.stream('statuses/filter', {locations:tashkent});
 stream.on('tweet', function (tweet) {
-  console.log(tweet);
+  console.log(tweet.user.name, "---->", tweet.text);
   tweetsDB.insert(JSON.stringify(tweet));
 });
